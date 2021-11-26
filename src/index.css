@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,100&display=swap");
+
+:root {
+  --colorPrimary: #3f3351;
+  --colorSegundary: #dddddd;
+  --colorSection: #3f3351;
+  --white: #cee5d0;
+  --linksInactivos: #000000;
+  --title: #b983ff;
+
+  --boxShadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+
+  --paddingSection: 50px 0;
+  --marginBottom: 50px;
+  --gapCajas: 20px;
+
+  --tercerColot: #1f1d36;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--white);
+  background-color: var(--tercerColot);
+  background-image: radial-gradient(
+      rgba(255, 255, 255, 0.192) 1px,
+      transparent 1px
+    ),
+    radial-gradient(rgba(63, 51, 81, 0.8) 1px, transparent 1px);
+  background-position: 0 0, 25px 25px;
+  background-size: 50px 50px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
