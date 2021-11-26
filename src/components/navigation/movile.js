@@ -4,7 +4,6 @@ import HomeLogo from "../icons/home";
 import AboutLogo from "../icons/about";
 import ServicesLogo from "../icons/services";
 import ProyectsLogo from "../icons/proyect";
-import { createElement } from "react";
 
 const MovileStyled = styled.div`
   display: none;

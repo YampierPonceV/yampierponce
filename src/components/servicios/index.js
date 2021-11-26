@@ -35,6 +35,12 @@ const ServiciosStyle = styled.div`
     grid-gap: var(--gapCajas);
   }
 
+  @media screen and (max-width: 950px) {
+    .containerCard {
+      padding: 0 1rem;
+    }
+  }
+
   @media screen and (max-width: 850px) {
     .containerCard {
       grid-template-columns: 1fr 1fr;
@@ -43,7 +49,6 @@ const ServiciosStyle = styled.div`
 
   @media screen and (max-width: 650px) {
     .containerCard {
-      padding: 0 1rem;
       grid-template-columns: 1fr;
     }
   }

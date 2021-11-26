@@ -36,6 +36,11 @@ const ProyectStyled = styled.div`
     grid-gap: var(--gapCajas);
   }
 
+  @media screen and (max-width: 950px) {
+    .container-proyectos {
+      padding: 0 1rem;
+    }
+  }
   @media screen and (max-width: 850px) {
     .container-proyectos {
       grid-template-columns: 1fr 1fr;
@@ -44,7 +49,6 @@ const ProyectStyled = styled.div`
 
   @media screen and (max-width: 650px) {
     .container-proyectos {
-      padding: 0 1rem;
       grid-template-columns: 1fr;
     }
   }

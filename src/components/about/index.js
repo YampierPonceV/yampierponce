@@ -66,7 +66,7 @@ const AboutStyle = styled.div`
     }
   }
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 900px) {
     text-align: center;
 
     h2 {

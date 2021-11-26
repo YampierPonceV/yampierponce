@@ -35,6 +35,11 @@ const SkillsStyle = styled.div`
     grid-gap: var(--gapCajas);
   }
 
+  @media screen and (max-width: 950px) {
+    .container-skills {
+      padding: 0 1rem;
+    }
+  }
   @media screen and (max-width: 850px) {
     .container-skills {
       grid-template-columns: 1fr 1fr;
@@ -42,7 +47,6 @@ const SkillsStyle = styled.div`
   }
   @media screen and (max-width: 650px) {
     .container-skills {
-      padding: 0 1rem;
       grid-template-columns: 1fr;
     }
   }

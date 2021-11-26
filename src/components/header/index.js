@@ -8,6 +8,7 @@ const HeaderStyled = styled.header`
   backdrop-filter: blur(5px);
   z-index: 100;
   background-color: var(--colorPrimary);
+
   .wrapper {
     display: flex;
     justify-content: space-between;
@@ -22,6 +23,9 @@ const HeaderStyled = styled.header`
     }
   }
 
+  @media screen and (max-width: 950px) {
+    padding: 0 1rem;
+  }
   @media screen and (max-width: 650px) {
     .wrapper {
       justify-content: center;
