@@ -31,4 +31,12 @@ export const proyect = [
     lenguage: "JAVASCRIPT - HTML - CSS",
     image: "https://i.imgur.com/bs4lxJk.png",
   },
+  {
+    id: 5,
+    name: "POKEDEX",
+    github: "https://github.com/YampierPonceV/pokedex",
+    demo: "https://yampierponcev.github.io/pokedex/",
+    lenguage: "JAVASCRIPT - HTML - CSS - API",
+    image: "https://i.imgur.com/XsZAlBT.png",
+  },
 ];
