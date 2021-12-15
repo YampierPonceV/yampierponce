@@ -39,4 +39,12 @@ export const proyect = [
     lenguage: "JAVASCRIPT - HTML - CSS - API",
     image: "https://i.imgur.com/XsZAlBT.png",
   },
+  {
+    id: 6,
+    name: "YAMPIER TECH",
+    github: "https://github.com/YampierPonceV/YampierTech",
+    demo: "https://yampierponcev.github.io/YampierTech/",
+    lenguage: "REACT - STYLED-COMPONENTS",
+    image: "https://i.imgur.com/IfFPTap.png",
+  },
 ];
