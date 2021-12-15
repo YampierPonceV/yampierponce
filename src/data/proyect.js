@@ -43,7 +43,7 @@ export const proyect = [
     id: 6,
     name: "YAMPIER TECH",
     github: "https://github.com/YampierPonceV/YampierTech",
-    demo: "https://yampierponcev.github.io/YampierTech/",
+    demo: "https://yampiertech.vercel.app/",
     lenguage: "REACT - STYLED-COMPONENTS",
     image: "https://i.imgur.com/IfFPTap.png",
   },
