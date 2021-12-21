@@ -43,6 +43,15 @@ body {
   background-size: 50px 50px;
 }
 
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #b983ff;
+  border-radius: 7px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

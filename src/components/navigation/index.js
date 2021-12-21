@@ -44,11 +44,6 @@ export default function Navigation() {
           </a>
         </li>
         <li>
-          <a href="#about" onClick={handleClick}>
-            Sobre Mi
-          </a>
-        </li>
-        <li>
           <a href="#services" onClick={handleClick}>
             Servicios
           </a>

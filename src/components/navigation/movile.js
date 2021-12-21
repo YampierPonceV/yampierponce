@@ -56,9 +56,6 @@ export default function Movile() {
       <a href="#index" className="navigation active">
         <HomeLogo onClick={handleClick} />
       </a>
-      <a href="#about" className="navigation">
-        <AboutLogo onClick={handleClick} />
-      </a>
       <a href="#services" className="navigation">
         <ServicesLogo onClick={handleClick} />
       </a>

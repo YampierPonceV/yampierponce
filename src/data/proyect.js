@@ -5,7 +5,7 @@ export const proyect = [
     github: "https://github.com/YampierPonceV/GitHubUserSearch",
     demo: "https://yampierponcev.github.io/GitHubUserSearch/",
     lenguage: "JAVASCRIPT - HTML - CSS",
-    image: "https://i.imgur.com/a0nmIig.png",
+    image: "https://i.imgur.com/EiBHpAu.png",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const proyect = [
     github: "https://github.com/YampierPonceV/social-media-dashboard",
     demo: "https://socialmediadashboard-alpha.vercel.app/",
     lenguage: "REACT - CSS",
-    image: "https://i.imgur.com/GIfnqrg.png",
+    image: "https://i.imgur.com/plxV3L9.png",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const proyect = [
     github: "https://github.com/YampierPonceV/Calculadora_Moderna",
     demo: "https://yampierponcev.github.io/Calculadora_Moderna/",
     lenguage: "JAVASCRIPT - HTML - CSS",
-    image: "https://i.imgur.com/1P3dfrA.png",
+    image: "https://i.imgur.com/3SyEWN3.png",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const proyect = [
     github: "https://github.com/YampierPonceV/Chirp-codewell",
     demo: "https://yampierponcev.github.io/Chirp-codewell/",
     lenguage: "JAVASCRIPT - HTML - CSS",
-    image: "https://i.imgur.com/bs4lxJk.png",
+    image: "https://i.imgur.com/Wc0USPm.png",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const proyect = [
     github: "https://github.com/YampierPonceV/pokedex",
     demo: "https://yampierponcev.github.io/pokedex/",
     lenguage: "JAVASCRIPT - HTML - CSS - API",
-    image: "https://i.imgur.com/XsZAlBT.png",
+    image: "https://i.imgur.com/4juQrx7.png",
   },
   {
     id: 6,
@@ -45,6 +45,6 @@ export const proyect = [
     github: "https://github.com/YampierPonceV/YampierTech",
     demo: "https://yampiertech.vercel.app/",
     lenguage: "REACT - STYLED-COMPONENTS",
-    image: "https://i.imgur.com/IfFPTap.png",
+    image: "https://i.imgur.com/sWkwk4F.png",
   },
 ];

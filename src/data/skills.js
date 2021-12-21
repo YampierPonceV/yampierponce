@@ -1,8 +1,9 @@
 export const skills = [
   {
     id: 1,
-    name: "HTML",
-    description: "Lengujage para la estructura de una página",
+    name: "Frontend Developer",
+    description:
+      "Conocimiento solidos en HTML - CSS - JAVASCRIPT -, manejo de versiones con GIT",
     avatar: "https://img.icons8.com/color/48/000000/html-5.png",
   },
   {

@@ -9,10 +9,15 @@ const CardStyle = styled.div`
   padding: 15px;
   text-align: center;
   transition: all 0.3s ease-in-out;
-  box-shadow: var(--boxShadow);
+  /* box-shadow: var(--boxShadow); */
+  background: #1e1535;
 
-  &:hover {
-    background-color: var(--tercerColot);
+  h4 {
+    font-size: 30px;
+    margin-bottom: 0.2rem;
+  }
+  p {
+    font-size: 18px;
   }
 `;
 

@@ -2,37 +2,48 @@ import styled from "styled-components";
 import Card from "../card";
 import Wrapper from "../wrapper";
 import { data } from "../../data/index";
+import BannerImage from "../../assets/banner.png";
 
 const ServiciosStyle = styled.div`
   padding: var(--paddingSection);
-  background: var(--colorSection);
-  h2 {
-    margin-top: 0;
-    margin-bottom: var(--marginBottom);
-    margin-right: auto;
-    margin-left: auto;
-    color: var(--colorSegundary);
-    width: max-content;
-    font-size: 35px;
-    position: relative;
-
-    &:after {
-      content: "";
-      display: block;
-      width: 100px;
-      height: 5px;
-      background: var(--tercerColot);
-      position: absolute;
-      border-radius: 9999px;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
-  .containerCard {
+  /* background: var(--colorSection); */
+  background: #03001e;
+  .grid-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: var(--gapCajas);
+    grid-template-areas: "title title descrip";
+    place-items: center;
+
+    @media screen and (max-width: 1100px) {
+      display: flex;
+      flex-direction: column;
+
+      h2,
+      h4 {
+        padding: 0 1rem;
+      }
+    }
+
+    .detaills-servicion {
+      grid-area: title;
+      h2 {
+        font-size: 45px;
+      }
+      h4 {
+        font-size: 34px;
+      }
+      img {
+        width: 100%;
+        filter: drop-shadow(0 0 3px);
+      }
+    }
+  }
+
+  .containerCard {
+    display: flex;
+    grid-area: descrip;
+    flex-direction: column;
+    gap: var(--gapCajas);
   }
 
   @media screen and (max-width: 950px) {
@@ -58,11 +69,18 @@ export default function Servicios() {
   return (
     <ServiciosStyle id="services">
       <Wrapper>
-        <h2>SERVICIOS</h2>
-        <div className="containerCard">
-          {data.map(({ id, title, message, image }) => {
-            return <Card title={title} message={message} image={image} />;
-          })}
+        <div className="grid-section">
+          <div className="detaills-servicion">
+            <h2>Mis Servicios</h2>
+            <h4>El aprendizaje constante te hace mejor profesional</h4>
+            <img src={BannerImage} alt="imagen de logos tecnologicos"></img>
+          </div>
+
+          <div className="containerCard">
+            {data.map(({ id, title, message, image }) => {
+              return <Card title={title} message={message} image={image} />;
+            })}
+          </div>
         </div>
       </Wrapper>
     </ServiciosStyle>

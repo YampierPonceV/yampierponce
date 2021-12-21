@@ -7,6 +7,7 @@ const CardProyectStyled = styled.div`
   height: 220px;
   border-radius: 10px;
   overflow: hidden;
+  transition: all 0.3s;
   .front {
     position: absolute;
     top: 0;
@@ -50,11 +51,23 @@ const CardProyectStyled = styled.div`
     }
   }
 
+  &:hover {
+    box-shadow: 0 0 16px #52b1c8, 0 0 18px #bfe9ff;
+    transform: scale(1.1);
+  }
+
   &:hover .back {
     visibility: visible;
     opacity: 1;
     cursor: pointer;
-    transform: scale(1) rotate(360deg);
+    transform: scale(1);
+  }
+
+  @media screen and (max-width: 650px) {
+    &:hover {
+      box-shadow: 0 0 16px #7267cb, 0 0 18px #bfe9ff;
+      transform: translateY(0) scale(1);
+    }
   }
 `;
 

@@ -4,19 +4,25 @@ import Social from "../social";
 import Wrapper from "../wrapper";
 
 const FooterStyle = styled.footer`
-  background: var(--tercerColot);
+  /* background: var(--tercerColot); */
+  background: #03001e;
   text-align: center;
 
   padding: 20px 0;
 
-  h4,
-  p {
-    margin: 0;
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+      padding: 2rem 1rem;
+    }
   }
 
   h4,
   p {
-    margin-bottom: 12px;
     color: #ccc;
   }
 
@@ -38,8 +44,10 @@ export default function Footer() {
   return (
     <FooterStyle>
       <Wrapper>
-        <h4>Puedes comunicarme conmigo por mis redes sociales</h4>
-        <Social />
+        <div className="footer-section">
+          <h4>Puedes comunicarme conmigo por mis redes sociales</h4>
+          <Social />
+        </div>
         <hr />
         <p>YampierPonce 2021 © Todos los izquierdos reservados</p>
       </Wrapper>

@@ -7,7 +7,7 @@ const HeaderStyled = styled.header`
   top: 0;
   backdrop-filter: blur(5px);
   z-index: 100;
-  background-color: var(--colorPrimary);
+  /* background-color: var(--colorPrimary); */
 
   .wrapper {
     display: flex;
@@ -20,6 +20,9 @@ const HeaderStyled = styled.header`
     a {
       color: var(--white);
       font-weight: bold;
+    }
+    a:active {
+      transform: scale(0.9);
     }
   }
 
@@ -46,7 +49,7 @@ export default function Header() {
               target="_blank"
               rel="noreferrer"
             >
-              YampierPonce
+              @YampierPonceV
             </a>
           </div>
           <Navigation />
